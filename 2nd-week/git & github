@@ -1,0 +1,69 @@
+Here we learn about what is git & git hub
+Firstly we install git on pc and create an account on git hub as well
+
+To check which version you using of git
+git --version
+
+To set the user name 
+git config --global user.name 'Username'
+
+To set the email 
+git config --global user.email 'User email'
+
+To make any folder
+mkdir 'NameofFolder' 
+
+To go inside the folder 
+cd 'NameofFolder/'
+
+To make a folder as git repo
+git init   -----> It will initilize the folder/file
+
+To see who tracking this file
+ls -a
+
+To see what changes you are made in it
+git status
+
+To add a file
+git add Filename      ----->This file is now tracking. File goes to working directory to staging area
+
+To commit any file
+git commit -m "Messege"
+
+To see total number of commits
+git log
+
+To go back to any file 
+git checkout <commit hash code>
+
+To go again in future
+git checkout master
+
+
+
+BRANCHES
+
+TO check any branch
+git branch
+
+To create any new branch
+git branch 'Name'
+
+To go directly into any branch
+git checkout -b 'Name'
+
+
+MERGING 
+
+First go to branch in which you want to merge
+git merge 'name'
+
+
+
+Create a file which secreats your files 
+touch.gitignore     ---------->Writ files/folder in this folder 
+
+
+git remove -v
+git push
