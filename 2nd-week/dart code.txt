@@ -1,0 +1,153 @@
+Dart is a static type programming language. It is also called compiled type programming language.
+
+Dart invlolve two type of compilation 
+AOT
+JIT
+
+
+
+CODE:
+
+
+// import 'dart:core';
+
+// void main() {
+//   var firstname = 'Muhammad Umar';
+//   var lastname = ' Tariq';
+//   print(firstname + lastname);
+// }
+
+// import 'dart:io';
+
+// void main() {
+//   stdout.writeln('What is your name ?');
+//   var name = stdin.readLineSync();
+//   print('Your name is $name');
+// }
+
+// void main() {
+//   int a = 55;
+//   var b = 4;
+//   print('a = $a');
+  
+//   double aq = 55;
+//   var bq = 4;
+//   print('aq = $aq | bq$bq ');
+  
+//   bool aa =true;
+//   var bb= false;
+//   print('a=$aa | b=$bb');
+// }
+
+// void main()
+// {
+//   String a= "Hello I am Umar";
+//   String b= 'Hello I am Umar';
+//   String c= 'It\'s';
+//   String d= "It's";
+  
+//   String e = "Hello \nMy name is Umar";
+  
+//   String f = r"Hello \n My name is Umar";
+  
+//   print('$a');
+//    print('$b');
+//    print('$c');
+//    print('$d');
+//    print('$e');
+//    print('$f');
+// }
+
+// void main()
+// {
+//   int a=35;
+//   var b='The number is $a';
+//   print ('$b');
+// }
+
+// main()
+// {
+//   String a='''hello 
+//   i am Umar
+//   ''';
+//   print (a);
+  
+// }
+
+// void main()
+// {
+//   const a=0;
+//   const b=true;
+//   const c="hello";
+  
+//   print(a);
+//   print(b);
+//   print(c);
+  
+//   print(a.runtimeType);
+// }
+
+
+// class num
+// {
+//   int n=10;
+// }
+// main()
+// {
+//   var a=num();
+//   int number=a.n;
+//   print(number);
+// }
+
+
+// main()
+// {
+//   var x= 'hello';
+//   if(x is int)
+//   {
+//     print('integer');
+//   }
+//   else
+//   {
+//     print('not');
+// }
+// }
+
+
+// main()
+// {
+//   var n =[1,2,3];
+  
+//   for (var n in n)
+//   {
+//     print(n);
+//   }
+// }
+
+// main()
+// {
+//   var n =[1,2,3];
+  
+//   n.forEach((n)=> print(n));
+// }
+
+// main()
+// {
+//   var gifts = 
+//   {
+//     //key   //value
+//     'first':'partridge',
+//     'second':'turtuledoves',
+//     'fifth':'goldenrings'
+//   };
+  
+//   print(gifts['second']);
+// }
+
+main()
+{
+  var gifts=Map();
+  gifts['first']='mango';
+  
+  print(gifts['first']);
+}
