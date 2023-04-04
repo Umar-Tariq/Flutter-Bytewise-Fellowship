@@ -1,0 +1,1 @@
+In this week we learn how flutter work with widgets. We explored what are stateless and statefull widgets. We also see how widgets work in it. Also some of the important widgets we see in it includeing row, column and container etc. we see how flutter hot reload and restart works. 
